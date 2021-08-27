@@ -1,0 +1,45 @@
+Default Benchmark results
+Duration_Rebalance 0.0801739 s
+Duration_Splitters 0.00722673 s
+Duration_Move 1.39056 s
+Duration_Total 1.47796 s
+Duration 1.47796 s
+
+
+Scaling Benchmark results
+Doing MPI RANKS = 1, each rank has 500000000 data
+Duration_Rebalance 1.31411 s
+Duration_Splitters 1.9748e-05 s
+Duration_Move 14.8791 s
+Duration_Total 16.1933 s
+Duration 16.1933 s
+Doing MPI RANKS = 4, each rank has 125000000 data
+Duration_Rebalance 0.34009 s
+Duration_Splitters 0.166689 s
+Duration_Move 11.8055 s
+Duration_Total 12.3123 s
+Duration 12.3123 s
+Doing MPI RANKS = 8, each rank has 62500000 data
+Duration_Rebalance 0.174092 s
+Duration_Splitters 0.129211 s
+Duration_Move 9.99933 s
+Duration_Total 10.3026 s
+Duration 10.3026 s
+Doing MPI RANKS = 16, each rank has 31250000 data
+Duration_Rebalance 0.0941638 s
+Duration_Splitters 0.0535144 s
+Duration_Move 9.164 s
+Duration_Total 9.31168 s
+Duration 9.31168 s
+Doing MPI RANKS = 25, each rank has 20000000 data
+Duration_Rebalance 0.0660535 s
+Duration_Splitters 0.0409423 s
+Duration_Move 8.72291 s
+Duration_Total 8.82991 s
+Duration 8.82991 s
+Doing MPI RANKS = 32, each rank has 15625000 data
+Duration_Rebalance 0.0596067 s
+Duration_Splitters 0.0354858 s
+Duration_Move 8.96775 s
+Duration_Total 9.06284 s
+Duration 9.06284 s

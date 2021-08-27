@@ -1,0 +1,147 @@
+/var/spool/slurmd/job2162859/slurm_script: line 24: [: missing `]'
+We seem to be in the right place.
+~/sortproject/build ~/sortproject
+Compiling
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+Found OpenMP, building parallel part.
+Found MPI
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lul8/sortproject/build
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[ 11%] Built target utils
+[ 22%] Built target student_solution
+[ 38%] Built target studenttests
+[ 50%] Built target orderedio
+[ 72%] Built target sorter
+[ 88%] Built target dotests
+[100%] Built target utiltests
+Testing
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[==========] Running 5 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from rebalance
+[ RUN      ] rebalance.correct
+[       OK ] rebalance.correct (8 ms)
+[ RUN      ] rebalance.balanced
+[       OK ] rebalance.balanced (6 ms)
+[----------] 2 tests from rebalance (14 ms total)
+
+[----------] 1 test from findSplitters
+[ RUN      ] findSplitters.balanced
+[       OK ] findSplitters.balanced (1 ms)
+[----------] 1 test from findSplitters (2 ms total)
+
+[----------] 1 test from moveData
+[ RUN      ] moveData.correct
+[       OK ] moveData.correct (1 ms)
+[----------] 1 test from moveData (1 ms total)
+
+[----------] 1 test from sort
+[ RUN      ] sort.correct
+[       OK ] sort.correct (0 ms)
+[----------] 1 test from sort (0 ms total)
+
+[----------] Global test environment tear-down
+Finalizing MPI...
+[==========] 5 tests from 4 test cases ran. (18 ms total)
+[  PASSED  ] 5 tests.
+Benchmarking
+Doing MPI RANKS = 1 
+srun: Warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+Doing MPI RANKS = 4 
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+Doing MPI RANKS = 8 
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+Doing MPI RANKS = 16 
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+Doing MPI RANKS = 25 
+srun: Warning: can't honor --ntasks-per-node set to 24 which doesn't match the requested tasks 25 with the number of requested nodes 2. Ignoring --ntasks-per-node.
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+Doing MPI RANKS = 32 
+srun: Warning: can't honor --ntasks-per-node set to 24 which doesn't match the requested tasks 32 with the number of requested nodes 2. Ignoring --ntasks-per-node.
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
+[33mWARNING:[0m seccomp requested but not enabled, seccomp library is missing or too old
