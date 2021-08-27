@@ -4,7 +4,7 @@ Distributed Memory Histogram Sort
 
 ## What this is
 Histogram sorting in a distributed memory environment using MPI parallelization.\
-Benchmark performance on linux cluster using slurm\ 
+Benchmark performance on linux cluster using slurm. \
 This is a project for the Parallel Programming course from UIUC
 
 ## Overall Algorithm 
